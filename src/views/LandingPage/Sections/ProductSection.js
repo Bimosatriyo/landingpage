@@ -35,8 +35,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Revenue"
+              description="Rupiah Abodemen yang disupport oleh tim CTB."
               icon={Chat}
               iconColor="info"
               vertical
@@ -44,8 +44,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="NTE"
+              description="NTE, yang diamankan dengan dismantle."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -54,7 +54,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              description="Port ODP dan UIM, diluruskan dengan valins."
               icon={Fingerprint}
               iconColor="danger"
               vertical
