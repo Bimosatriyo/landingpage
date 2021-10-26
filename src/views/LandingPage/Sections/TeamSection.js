@@ -16,9 +16,9 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import team1 from "assets/img/faces/mba-rini.jpg";
+import team2 from "assets/img/faces/tina.jpg";
+import team3 from "assets/img/faces/mba-mariana.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -31,7 +31,7 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>Here is Clink team</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
@@ -40,9 +40,9 @@ export default function TeamSection() {
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Rini
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Hustler</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -83,9 +83,9 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Agustina
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Hipster</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -108,6 +108,13 @@ export default function TeamSection() {
                   color="transparent"
                   className={classes.margin5}
                 >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
               </CardFooter>
@@ -119,9 +126,9 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Mariana
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Hacker</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
